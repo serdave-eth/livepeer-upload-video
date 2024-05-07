@@ -21,6 +21,7 @@ const livepeer = new Livepeer({ apiKey });
 
 const assetData = {
   name: fileName,
+  playbackPolicy: { type: 'public' },
 };
 
 livepeer
