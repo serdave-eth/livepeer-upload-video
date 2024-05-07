@@ -35,4 +35,9 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
+# ignore environment files
 .env
+
+# ignore video files
+*.mp4
+*.mov
